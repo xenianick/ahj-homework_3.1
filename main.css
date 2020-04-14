@@ -1,0 +1,67 @@
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  width: 440px;
+  margin: 30px auto 0 auto;
+  cursor: url(hammer.png), auto;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #cccacf;
+  cursor: url(hammer.png), auto;
+}
+
+.icon {
+  width: 50px;
+}
+
+.points-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 440px;
+  margin: 50px auto 0 auto;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.modal {
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0;
+  background-color: transparent;
+  z-index: 999;
+}
+
+.modal_message {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px dotted #8d8a8a;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.btn {
+  border-radius: 5px;
+  font-size: 15px;
+}
