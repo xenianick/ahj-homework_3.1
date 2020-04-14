@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 import changePlace from './changePlace.js';
 import showModal from './showModal.js';
 
